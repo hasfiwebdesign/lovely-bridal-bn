@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -131,58 +131,61 @@ footer a{text-decoration:none}
 .fab svg{width:30px;height:30px;fill:#fff}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .8s,transform .8s}
 .rv.in{opacity:1;transform:none}
+@media(max-width:600px){.links .btn{display:none}}
+html[lang=en] .ms,html[lang=ms] .en{display:none!important}
+.lang{display:inline-flex;border:1px solid currentColor;border-radius:999px;overflow:hidden;font-size:.72rem;letter-spacing:.08em;margin-right:4px}.lang button{background:none;border:0;color:inherit;font:inherit;padding:6px 10px;cursor:pointer;opacity:.6}.lang button.on{opacity:1;font-weight:600;background:rgba(127,127,127,.18)}
 </style>
 </head>
 <body>
 <header id="hd"><div class="wrap"><nav>
 <a class="logo" href="#">LOVELY BRIDAL<small>BRUNEI</small></a>
-<div class="links"><a href="#layanan">Layanan</a><a href="#ulasan">Ulasan</a><a href="#galeri">Galeri</a><a href="#tempah">Lokasi</a><a class="btn btn-plum" href="#tempah">Tempah temu janji</a></div>
+<div class="links"><span class="lang"><button data-l="en">EN</button><button data-l="ms">BM</button></span><a href="#layanan"><span class="ms">Layanan</span><span class="en">Services</span></a><a href="#ulasan"><span class="ms">Ulasan</span><span class="en">Reviews</span></a><a href="#galeri"><span class="ms">Galeri</span><span class="en">Gallery</span></a><a href="#tempah"><span class="ms">Lokasi</span><span class="en">Location</span></a><a class="btn btn-plum" href="#tempah"><span class="ms">Tempah temu janji</span><span class="en">Book an appointment</span></a></div>
 </nav></div></header>
 
 <section class="hero" style="padding:0">
 <div class="bg"><img src="img/l20.jpg" alt="Pengantin Lovely Bridal dengan jambak bunga" fetchpriority="high"></div>
 <div class="wrap">
-<div class="stars"><b>★★★★★</b> 5.0 daripada 64 ulasan Google</div>
-<h1>Gaun impian anda, <em>dijahit untuk anda.</em></h1>
-<p>Busana pengantin dan busana nikah tempahan khas di Jalan Gadong. Jahit sendiri atau sewa tempahan khas, dari pertemuan pertama hingga cubaan terakhir.</p>
-<div class="cta"><a class="btn btn-plum" href="#tempah">Tempah temu janji</a><a class="btn btn-ghost" href="#galeri">Lihat koleksi</a></div>
+<div class="stars"><b>★★★★★</b><span class="ms"> 5.0 daripada 64 ulasan Google</span><span class="en"> 5.0 from 64 Google reviews</span></div>
+<h1><span class="ms">Gaun impian anda, <em>dijahit untuk anda.</em></span><span class="en">Your dream gown, <em>made just for you.</em></span></h1>
+<p><span class="ms">Busana pengantin dan busana nikah tempahan khas di Jalan Gadong. Jahit sendiri atau sewa tempahan khas, dari pertemuan pertama hingga cubaan terakhir.</span><span class="en">Custom bridal and nikah gowns on Jalan Gadong. Made-to-own or made-to-rent, from the first meeting to the final fitting.</span></p>
+<div class="cta"><a class="btn btn-plum" href="#tempah"><span class="ms">Tempah temu janji</span><span class="en">Book an appointment</span></a><a class="btn btn-ghost" href="#galeri"><span class="ms">Lihat koleksi</span><span class="en">View collection</span></a></div>
 </div>
 </section>
 
 <section><div class="wrap intro">
 <div class="pics rv"><img class="p1" src="img/l03.jpg" alt="Butik Lovely Bridal Brunei" loading="lazy"><img class="p2" src="img/l19.jpg" alt="Jahitan manik tangan pada gaun" loading="lazy"></div>
 <div class="rv">
-<div class="eyebrow">Butik pengantin, Gadong</div>
-<h2>Setiap butiran, <em>ikut impian anda</em></h2>
-<p>Di Lovely Bridal, setiap gaun bermula dengan perbualan. Kami dengar apa yang anda bayangkan, lakar bersama, kemudian jahit dan pasang manik dengan tangan sehingga gaun itu benar-benar menjadi milik anda.</p>
-<p>Pengantin bersaiz besar, permintaan saat akhir atau busana nikah yang perlu menutup aurat dengan anggun: semuanya kami layan dengan sabar.</p>
-<div class="sig">"Datang dengan impian, pulang dengan gaun anda."</div>
+<div class="eyebrow"><span class="ms">Butik pengantin, Gadong</span><span class="en">Bridal boutique, Gadong</span></div>
+<h2><span class="ms">Setiap butiran, <em>ikut impian anda</em></span><span class="en">Every detail, <em>exactly as you dreamed</em></span></h2>
+<p><span class="ms">Di Lovely Bridal, setiap gaun bermula dengan perbualan. Kami dengar apa yang anda bayangkan, lakar bersama, kemudian jahit dan pasang manik dengan tangan sehingga gaun itu benar-benar menjadi milik anda.</span><span class="en">At Lovely Bridal, every gown begins with a conversation. We listen to what you imagine, sketch it together, then sew and hand-bead it until the gown is truly yours.</span></p>
+<p><span class="ms">Pengantin bersaiz besar, permintaan saat akhir atau busana nikah yang perlu menutup aurat dengan anggun: semuanya kami layan dengan sabar.</span><span class="en">Plus-size brides, last-minute requests or a modest nikah outfit that still feels elegant: we handle every one with patience.</span></p>
+<div class="sig"><span class="ms">"Datang dengan impian, pulang dengan gaun anda."</span><span class="en">"Come with a dream, leave with your gown."</span></div>
 </div>
 </div></section>
 
 <section class="svc" id="layanan"><div class="wrap">
-<div class="head rv"><div class="eyebrow">Layanan kami</div><h2>Cara kami <em>menyiapkan hari anda</em></h2><p>Pilih cara yang sesuai dengan bajet dan majlis anda. Semua bermula dengan temu janji di butik.</p></div>
+<div class="head rv"><div class="eyebrow"><span class="ms">Layanan kami</span><span class="en">Our services</span></div><h2><span class="ms">Cara kami <em>menyiapkan hari anda</em></span><span class="en">How we <em>prepare your day</em></span></h2><p><span class="ms">Pilih cara yang sesuai dengan bajet dan majlis anda. Semua bermula dengan temu janji di butik.</span><span class="en">Choose what suits your budget and celebration. It all starts with an appointment at the boutique.</span></p></div>
 <div class="cards">
-<div class="card rv"><img src="img/l11.jpg" alt="Gaun pengantin putih tempahan khas" loading="lazy"><div><h3>Jahit tempahan khas</h3><p>Gaun direka dan dijahit mengikut ukuran badan anda, menjadi milik anda selepas majlis.</p></div></div>
-<div class="card rv"><img src="img/l05.jpg" alt="Gaun duyung putih untuk sewa tempahan khas" loading="lazy"><div><h3>Sewa tempahan khas</h3><p>Gaun baharu dijahit untuk anda, dipakai pada hari bahagia, dengan kos lebih rendah daripada membeli.</p></div></div>
-<div class="card rv"><img src="img/l04.jpg" alt="Busana nikah renda lengan panjang" loading="lazy"><div><h3>Busana nikah</h3><p>Busana akad nikah yang sopan dan anggun, termasuk permintaan saat akhir.</p></div></div>
-<div class="card rv"><img src="img/l06.jpg" alt="Gaun bersulam ungu" loading="lazy"><div><h3>Persandingan &amp; majlis</h3><p>Gaun berwarna dan bersulam untuk persandingan, bertandang atau majlis istimewa.</p></div></div>
+<div class="card rv"><img src="img/l11.jpg" alt="Gaun pengantin putih tempahan khas" loading="lazy"><div><h3><span class="ms">Jahit tempahan khas</span><span class="en">Custom made-to-own</span></h3><p><span class="ms">Gaun direka dan dijahit mengikut ukuran badan anda, menjadi milik anda selepas majlis.</span><span class="en">Designed and sewn to your measurements, and yours to keep after the wedding.</span></p></div></div>
+<div class="card rv"><img src="img/l05.jpg" alt="Gaun duyung putih untuk sewa tempahan khas" loading="lazy"><div><h3><span class="ms">Sewa tempahan khas</span><span class="en">Custom made-to-rent</span></h3><p><span class="ms">Gaun baharu dijahit untuk anda, dipakai pada hari bahagia, dengan kos lebih rendah daripada membeli.</span><span class="en">A brand-new gown sewn for you to wear on your big day, at a lower cost than buying.</span></p></div></div>
+<div class="card rv"><img src="img/l04.jpg" alt="Busana nikah renda lengan panjang" loading="lazy"><div><h3><span class="ms">Busana nikah</span><span class="en">Nikah attire</span></h3><p><span class="ms">Busana akad nikah yang sopan dan anggun, termasuk permintaan saat akhir.</span><span class="en">Modest, graceful outfits for the akad nikah, including last-minute requests.</span></p></div></div>
+<div class="card rv"><img src="img/l06.jpg" alt="Gaun bersulam ungu" loading="lazy"><div><h3><span class="ms">Persandingan &amp; majlis</span><span class="en">Bersanding &amp; receptions</span></h3><p><span class="ms">Gaun berwarna dan bersulam untuk persandingan, bertandang atau majlis istimewa.</span><span class="en">Coloured and embroidered gowns for bersanding, bertandang or special occasions.</span></p></div></div>
 </div>
 </div></section>
 
 <section><div class="wrap">
-<div class="rv"><div class="eyebrow">Langkah demi langkah</div><h2>Dari lakaran <em>ke hari bahagia</em></h2></div>
+<div class="rv"><div class="eyebrow"><span class="ms">Langkah demi langkah</span><span class="en">Step by step</span></div><h2><span class="ms">Dari lakaran <em>ke hari bahagia</em></span><span class="en">From sketch <em>to your big day</em></span></h2></div>
 <div class="steps">
-<div class="step rv"><div class="n">01</div><h3>Temu janji</h3><p>Ceritakan impian, tarikh majlis dan bajet anda.</p></div>
-<div class="step rv"><div class="n">02</div><h3>Reka &amp; ukur</h3><p>Pilih kain, potongan dan sulaman. Ukuran diambil di butik.</p></div>
-<div class="step rv"><div class="n">03</div><h3>Cubaan</h3><p>Gaun dicuba dan dilaraskan sehingga selesa dan sempurna.</p></div>
-<div class="step rv"><div class="n">04</div><h3>Hari bahagia</h3><p>Gaun siap untuk anda bersinar di hadapan tetamu.</p></div>
+<div class="step rv"><div class="n">01</div><h3><span class="ms">Temu janji</span><span class="en">Appointment</span></h3><p><span class="ms">Ceritakan impian, tarikh majlis dan bajet anda.</span><span class="en">Tell us your dream, wedding date and budget.</span></p></div>
+<div class="step rv"><div class="n">02</div><h3><span class="ms">Reka &amp; ukur</span><span class="en">Design &amp; measure</span></h3><p><span class="ms">Pilih kain, potongan dan sulaman. Ukuran diambil di butik.</span><span class="en">Choose fabric, cut and embroidery. Measurements are taken at the boutique.</span></p></div>
+<div class="step rv"><div class="n">03</div><h3><span class="ms">Cubaan</span><span class="en">Fitting</span></h3><p><span class="ms">Gaun dicuba dan dilaraskan sehingga selesa dan sempurna.</span><span class="en">Your gown is tried on and adjusted until it fits perfectly.</span></p></div>
+<div class="step rv"><div class="n">04</div><h3><span class="ms">Hari bahagia</span><span class="en">The big day</span></h3><p><span class="ms">Gaun siap untuk anda bersinar di hadapan tetamu.</span><span class="en">Your gown is ready for you to shine in front of your guests.</span></p></div>
 </div>
 </div></section>
 
 <section class="rev" id="ulasan"><div class="wrap">
-<div class="rtop"><div><div class="eyebrow">Kata pengantin kami</div><h2>Mereka datang dengan impian, <em>pulang dengan senyuman</em></h2></div>
-<div class="score"><div class="big">5.0</div><div class="s">★★★★★</div><div style="font-size:.85rem;color:#e9c3bb">64 ulasan Google</div></div></div>
+<div class="rtop"><div><div class="eyebrow"><span class="ms">Kata pengantin kami</span><span class="en">From our brides</span></div><h2><span class="ms">Mereka datang dengan impian, <em>pulang dengan senyuman</em></span><span class="en">They came with a dream, <em>left with a smile</em></span></h2></div>
+<div class="score"><div class="big">5.0</div><div class="s">★★★★★</div><div style="font-size:.85rem;color:#e9c3bb"><span class="ms">64 ulasan Google</span><span class="en">64 Google reviews</span></div></div></div>
 <div class="track">
 <div class="q"><div class="s">★★★★★</div><p>"Thank you so much, Fatin, for bringing my dream wedding dress to life, from our very first meeting right through to the final fitting."</p><span>Badriatun H.</span></div>
 <div class="q"><div class="s">★★★★★</div><p>"As a plus-sized bride, it wasn't easy finding a place that understood. Faatin was incredibly patient with me."</p><span>Farah N.</span></div>
@@ -194,7 +197,7 @@ footer a{text-decoration:none}
 </div></section>
 
 <section id="galeri"><div class="wrap">
-<div class="rv" style="margin-bottom:40px"><div class="eyebrow">Galeri</div><h2>Koleksi <em>dari butik kami</em></h2></div>
+<div class="rv" style="margin-bottom:40px"><div class="eyebrow"><span class="ms">Galeri</span><span class="en">Gallery</span></div><h2><span class="ms">Koleksi <em>dari butik kami</em></span><span class="en">From <em>our boutique</em></span></h2></div>
 <div class="gal">
 <img src="img/l02.jpg" alt="Koleksi gaun putih" decoding="async"><img src="img/l08.jpg" alt="Sulaman manik pada gaun" decoding="async"><img src="img/l13.jpg" alt="Gaun sulaman ungu muda" decoding="async"><img src="img/l07.jpg" alt="Gaun putih di butik" decoding="async"><img src="img/l18.jpg" alt="Pelanggan dalam busana hijau" decoding="async"><img src="img/l14.jpg" alt="Ruang butik Lovely Bridal" decoding="async"><img src="img/l09.jpg" alt="Gaun renda" decoding="async"><img src="img/l12.jpg" alt="Perincian sulaman" decoding="async"><img src="img/l17.jpg" alt="Busana biru" decoding="async">
 </div>
@@ -202,29 +205,29 @@ footer a{text-decoration:none}
 
 <section class="svc" id="tempah"><div class="wrap book">
 <div class="info rv">
-<div class="eyebrow">Tempah temu janji</div>
-<h2>Mari mulakan <em>gaun anda</em></h2>
-<p>Isi borang ini dan pesanan anda terus sampai ke WhatsApp kami. Kami akan balas untuk tetapkan masa temu janji di butik.</p>
-<div class="row"><b>Alamat</b><span>No. 20, Simpang 15, Bangunan Hj Mohd Tahir dan Hui, Jalan Gadong, Bandar Seri Begawan BE1419</span></div>
+<div class="eyebrow"><span class="ms">Tempah temu janji</span><span class="en">Book an appointment</span></div>
+<h2><span class="ms">Mari mulakan <em>gaun anda</em></span><span class="en">Let's begin <em>your gown</em></span></h2>
+<p><span class="ms">Isi borang ini dan pesanan anda terus sampai ke WhatsApp kami. Kami akan balas untuk tetapkan masa temu janji di butik.</span><span class="en">Fill in this form and your message goes straight to our WhatsApp. We will reply to set your appointment at the boutique.</span></p>
+<div class="row"><b><span class="ms">Alamat</span><span class="en">Address</span></b><span>No. 20, Simpang 15, Bangunan Hj Mohd Tahir dan Hui, Jalan Gadong, Bandar Seri Begawan BE1419</span></div>
 <div class="row"><b>WhatsApp</b><a href="https://wa.me/6738167818">+673 816 7818</a></div>
-<div class="row"><b>Temu janji</b><span>Dengan tempahan sahaja</span></div>
+<div class="row"><b><span class="ms">Temu janji</span><span class="en">Appointment</span></b><span><span class="ms">Dengan tempahan sahaja</span><span class="en">By appointment only</span></span></div>
 <div class="map"><iframe loading="lazy" title="Peta Lovely Bridal Brunei" src="https://www.google.com/maps?q=Lovely+Bridal+Brunei+Jalan+Gadong&output=embed"></iframe></div>
 </div>
 <form id="f" class="rv">
-<h3>Borang temu janji</h3><div class="sub">Dihantar terus ke WhatsApp Lovely Bridal.</div>
-<label for="n">Nama</label><input id="n" required placeholder="Nama anda">
-<div class="two"><div><label for="d">Tarikh majlis</label><input id="d" type="date"></div>
-<div><label for="t">Tarikh temu janji</label><input id="t" type="date"></div></div>
-<label for="j">Layanan</label><select id="j"><option>Jahit tempahan khas</option><option>Sewa tempahan khas</option><option>Busana nikah</option><option>Persandingan / majlis</option><option>Belum pasti, mahu berbincang</option></select>
-<label for="m">Impian anda</label><textarea id="m" rows="3" placeholder="Warna, gaya, rujukan gambar, bajet..."></textarea>
-<button class="btn btn-wa" type="submit">Hantar melalui WhatsApp</button>
+<h3><span class="ms">Borang temu janji</span><span class="en">Appointment form</span></h3><div class="sub"><span class="ms">Dihantar terus ke WhatsApp Lovely Bridal.</span><span class="en">Sent straight to Lovely Bridal's WhatsApp.</span></div>
+<label for="n"><span class="ms">Nama</span><span class="en">Name</span></label><input id="n" required placeholder="Nama anda">
+<div class="two"><div><label for="d"><span class="ms">Tarikh majlis</span><span class="en">Wedding date</span></label><input id="d" type="date"></div>
+<div><label for="t"><span class="ms">Tarikh temu janji</span><span class="en">Appointment date</span></label><input id="t" type="date"></div></div>
+<label for="j"><span class="ms">Layanan</span><span class="en">Services</span></label><select id="j"><option><span class="ms">Jahit tempahan khas</span><span class="en">Custom made-to-own</span></option><option><span class="ms">Sewa tempahan khas</span><span class="en">Custom made-to-rent</span></option><option><span class="ms">Busana nikah</span><span class="en">Nikah attire</span></option><option>Persandingan / majlis</option><option>Belum pasti, mahu berbincang</option></select>
+<label for="m"><span class="ms">Impian anda</span><span class="en">Your dream</span></label><textarea id="m" rows="3" placeholder="Warna, gaya, rujukan gambar, bajet..."></textarea>
+<button class="btn btn-wa" type="submit"><span class="ms">Hantar melalui WhatsApp</span><span class="en">Send via WhatsApp</span></button>
 </form>
 </div></section>
 
 <footer><div class="wrap">
-<div class="f"><div><a class="logo" href="#">LOVELY BRIDAL<small>BRUNEI</small></a><p style="margin-top:14px;max-width:320px">Busana pengantin dan busana nikah tempahan khas di Gadong, Bandar Seri Begawan.</p></div>
+<div class="f"><div><a class="logo" href="#">LOVELY BRIDAL<small>BRUNEI</small></a><p style="margin-top:14px;max-width:320px"><span class="ms">Busana pengantin dan busana nikah tempahan khas di Gadong, Bandar Seri Begawan.</span><span class="en">Custom bridal and nikah gowns in Gadong, Bandar Seri Begawan.</span></p></div>
 <div><p>Jalan Gadong, Bandar Seri Begawan</p><p><a href="https://wa.me/6738167818">WhatsApp +673 816 7818</a></p></div></div>
-<div class="credit">© 2026 Lovely Bridal Brunei · Contoh website oleh Hasfi Web Design</div>
+<div class="credit"><span class="ms">© 2026 Lovely Bridal Brunei · Contoh website oleh Hasfi Web Design</span><span class="en">© 2026 Lovely Bridal Brunei · Sample website by Hasfi Web Design</span></div>
 </div></footer>
 
 <a class="fab" href="https://wa.me/6738167818" aria-label="WhatsApp Lovely Bridal"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></a>
@@ -234,10 +237,18 @@ const hd=document.getElementById('hd');addEventListener('scroll',()=>hd.classLis
 const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 const lb=document.getElementById('lb');document.querySelectorAll('.gal img').forEach(i=>i.onclick=()=>{lb.querySelector('img').src=i.src;lb.classList.add('on')});lb.onclick=()=>lb.classList.remove('on');
-const fd=v=>v?new Date(v).toLocaleDateString('ms-MY',{day:'numeric',month:'long',year:'numeric'}):'-';
+const EN=()=>document.documentElement.lang==='en';const fd=v=>v?new Date(v).toLocaleDateString(EN()?'en-GB':'ms-MY',{day:'numeric',month:'long',year:'numeric'}):'-';
 document.getElementById('f').onsubmit=e=>{e.preventDefault();const g=id=>document.getElementById(id).value.trim();
-const t=`Assalamualaikum Lovely Bridal, saya ingin menempah temu janji.\n\nNama: ${g('n')}\nTarikh majlis: ${fd(g('d'))}\nTarikh temu janji: ${fd(g('t'))}\nLayanan: ${g('j')}\nImpian saya: ${g('m')||'-'}`;
+const t=EN()?`Assalamualaikum Lovely Bridal, I would like to book an appointment.\n\nName: ${g('n')}\nWedding date: ${fd(g('d'))}\nAppointment date: ${fd(g('t'))}\nService: ${g('j')}\nMy dream: ${g('m')||'-'}`:`Assalamualaikum Lovely Bridal, saya ingin menempah temu janji.\n\nNama: ${g('n')}\nTarikh majlis: ${fd(g('d'))}\nTarikh temu janji: ${fd(g('t'))}\nLayanan: ${g('j')}\nImpian saya: ${g('m')||'-'}`;
 open('https://wa.me/6738167818?text='+encodeURIComponent(t),'_blank')};
+
+const AT=[["#n", "placeholder", "Nama anda", "Your name"], ["#m", "placeholder", "Warna, gaya, rujukan gambar, bajet...", "Colour, style, reference photos, budget..."], ["#j option:nth-child(1)", null, "Jahit tempahan khas", "Custom made-to-own"], ["#j option:nth-child(2)", null, "Sewa tempahan khas", "Custom made-to-rent"], ["#j option:nth-child(3)", null, "Busana nikah", "Nikah attire"], ["#j option:nth-child(4)", null, "Persandingan / majlis", "Bersanding / reception"], ["#j option:nth-child(5)", null, "Belum pasti, mahu berbincang", "Not sure yet, let's discuss"]];
+function setL(l){document.documentElement.lang=l;try{localStorage.setItem('lang',l)}catch(e){}
+document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===l));
+AT.forEach(([sel,attr,ms,en])=>document.querySelectorAll(sel).forEach(el=>{if(attr)el.setAttribute(attr,l==='en'?en:ms);else el.textContent=l==='en'?en:ms}));
+document.title=l==='en'?"Lovely Bridal Brunei | Custom Wedding Gowns, Gadong":"Lovely Bridal Brunei | Busana Pengantin Tempahan Khas, Gadong"}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>setL(b.dataset.l));
+let L0='en';try{L0=localStorage.getItem('lang')||'en'}catch(e){}setL(L0);
 </script>
 </body>
 </html>
